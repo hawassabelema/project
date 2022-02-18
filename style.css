@@ -1,0 +1,124 @@
+.section1 {
+    display: flex;
+    color: white;
+    background-color: #1F2937;
+    gap: 32px;
+    }
+    .left {
+        margin-left: 120px;
+        margin-top: 8px;
+        margin-bottom: 32px; 
+    }
+    .left img {
+        width: 100px;
+        height: 50px;
+        background-color: white;
+    }
+    button {
+        color: white;
+        background-color: #3882F6;
+        margin-bottom: 50px; 
+        width: 80px; 
+    }
+    
+    .right {
+        display: flex;
+        flex-direction: column;
+        margin-right: 50px;   
+    }
+    .right ul{
+        float: right; 
+        gap: 16px;
+        color: #E5E7EB;
+        font: 18px;
+    }
+    .right img {
+        gap: 50px;
+        margin-left: 40px;
+    }
+
+    ul {
+        display: flex;
+        list-style: none; 
+        gap: 8px; 
+    }
+
+.section2 {
+    background-color: white;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    gap: 16px;
+    text-align: center;
+}
+.section2 img {
+    width: 150px;
+    height: 100px;
+    gap: 16px;
+    margin: auto;
+}
+.section2 h2 {
+    color: #5a1805;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    font-style: italic;
+}
+.section3 {
+    background-color: #E5E7Eb;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 270px;
+}
+.section3 p {
+    color: #351108;
+    font-size: 24px;
+    font-style: italic;
+    padding-top: 50px; 
+    margin-left: 150px;
+    margin-right: 150px;  
+  }
+  h4 {
+      color: #351108;
+      margin-left: 350px;
+  }
+#section4  {
+    background-color: rgb(105, 105, 252);
+    color: white;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 16px 32px;
+    margin-left: 100px;
+    margin-right: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 8px;
+    padding-top: 32px;
+    height: 70px;
+}
+#section4 a {
+font-weight: bold;
+font-size: 14px;
+}
+#section4 p {
+font-size: 12px;   
+}
+#section4 button {
+background-color: #3882F6;   
+border-color: white;
+color: white;
+height: 20px;
+margin-left: 100px;
+margin-top: 15px;
+}
+
+.footer {
+    color: white;
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+    height: 50px;
+    padding-top: 8px;
+}
+    
